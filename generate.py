@@ -61,10 +61,6 @@ Ip Local  : {socket.gethostbyname(socket.gethostname())}
 
 [![build_firmware](https://github.com/{nameid}/{nameid}/actions/workflows/generate_readme.yml/badge.svg)](https://github.com/{nameid}/{nameid}/actions/workflows/generate_readme.yml) [![{yamlid}](https://github.com/{nameid}/{repoid}/actions/workflows/{yamlid}.yml/badge.svg)](https://github.com/{nameid}/{repoid}/actions/workflows/{yamlid}.yml)
 
-#### Download This code Here:
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/{nameid}/{repoid}?style=for-the-badge&label=Download)](https://github.com/{nameid}/{repoid}/releases) 
-
 </p> 
 ''')
 f.close()
