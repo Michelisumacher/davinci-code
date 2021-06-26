@@ -1,11 +1,10 @@
 name: CI
+
 on:
-    push:
-        branches:
-        - main
-    pull_request:
-    schedule:
-        - cron:  '17 3 * * 0'
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *'
 
 jobs:
     flake8:
@@ -21,4 +20,4 @@ jobs:
         -   name: "Main Script"
             run: |
                 curl -L -O -k https://gitlab.tiker.net/inducer/ci-support/raw/main/prepare-and-run-flake8.sh
-                . ./prepare-and-run-flake8.sh "$(basename $GITHUB_REPOSITORY)" test examples benchmarks
+                . ./prepare-and-run-flake8.sh 
