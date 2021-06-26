@@ -36,7 +36,7 @@
 
 ```bash
 
-2021-06-26 - 15:31:54 UTC
+2021-06-26 - 15:34:09 UTC
 
 ```
 
@@ -48,14 +48,10 @@ Host Name : fv-az80-108
 
 platform  : Linux-5.8.0-1033-azure-x86_64-with-glibc2.31
 
-Ip Local  : 10.1.0.22
+Ip Local  : 10.1.0.15
 
 ```
 
 [![build_firmware](https://github.com/VicRoesems/VicRoesems/actions/workflows/generate_readme.yml/badge.svg)](https://github.com/VicRoesems/VicRoesems/actions/workflows/generate_readme.yml) [![generate-code](https://github.com/VicRoesems/Jar-Runtime/actions/workflows/generate-code.yml/badge.svg)](https://github.com/VicRoesems/Jar-Runtime/actions/workflows/generate-code.yml)
-
-#### Download This code Here:
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/VicRoesems/Jar-Runtime?style=for-the-badge&label=Download)](https://github.com/VicRoesems/Jar-Runtime/releases) 
 
 </p> 
