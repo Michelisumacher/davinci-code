@@ -58,9 +58,6 @@ platform  : {platform.platform()}
 Ip Local  : {socket.gethostbyname(socket.gethostname())}
 
 ```
-
-[![build_firmware](https://github.com/{nameid}/{nameid}/actions/workflows/generate_readme.yml/badge.svg)](https://github.com/{nameid}/{nameid}/actions/workflows/generate_readme.yml) [![{yamlid}](https://github.com/{nameid}/{repoid}/actions/workflows/{yamlid}.yml/badge.svg)](https://github.com/{nameid}/{repoid}/actions/workflows/{yamlid}.yml)
-
 </p> 
 ''')
 f.close()
