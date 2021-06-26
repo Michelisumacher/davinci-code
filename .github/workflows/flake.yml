@@ -1,4 +1,4 @@
-name: CI
+name: FLAKE
 
 on:
   repository_dispatch:
