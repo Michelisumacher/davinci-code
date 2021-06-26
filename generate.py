@@ -7,7 +7,6 @@ yamlid = "generate-code"
 f = open("./README.md", "w")
 f.write(f'''
 
-<a href="https://github.com/{nameid}"><h3 align="center"><b>{nameid}</b></h3></a>
 <table style="margin:0 0;">
 <tr>
 	<td>
