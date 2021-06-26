@@ -8,8 +8,24 @@ f = open("./README.md", "w")
 f.write(f'''
 
 <a href="https://github.com/{nameid}"><h3 align="center"><b>{nameid}</b></h3></a>
-
-<h3 align="center">Have a nice day!</h3>
+<table style="margin:0 0;">
+<tr>
+	<td>
+<p>&nbsp;<img align="left"  src="https://github-readme-stats.vercel.app/api?username=scallions&show_icons=true&locale=en" alt="scallions" /></p>
+	</td>
+	<td>
+<p><img align="right"  src="https://github-readme-stats.vercel.app/api/top-langs?username=scallions&show_icons=true&locale=en&layout=compact" alt="scallions" /></p>
+	</td>
+</tr>
+<tr>
+	<td>
+<p><img align="left"  src="https://github-readme-streak-stats.herokuapp.com/?user=scallions&" alt="scallions" /></p>
+	</td>
+	<td>
+<p><img align="right"  src="https://stats.justsong.cn/api/leetcode?username=scallions&cn=true" /></p>
+	</td>
+</tr>
+</table>
 
 <p align="center">
 
